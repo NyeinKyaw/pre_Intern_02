@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Testing Form</title>
+    </head>
+    <body>
+        <form>
+            <lable for="fname">First name: </lable><br>
+            <input type="text" id="fname" name="fname"><br>
+            <lable for="lname">Last name: </lable><br>
+            <input type="text" id="lname" name="lname"><br><br>
+            <lable for="browser">Choose your favourite languages : </lable>
+            <input list="languages" name="language">
+
+            <datalist id="languages">
+                <option value="Java">
+                <option value="PHP">
+                <option value="Python">
+                <option value="C#">
+            </datalist>
+
+            <button>Submit</button>
+            <input type="reset">
+
+        </form>
+    </body>
+</html>
