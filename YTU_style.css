@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.top{
+    height: 5px;
+    background-color: #dc3545;
+}
+.navbar1{
+    width: 100%;
+    background-color: #868e96;
+    height: 40px;
+}
+.nav1{
+    width: 30%;
+    margin-left: 60%;
+    text-align: right !important;
+    padding: 10px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: thin;
+}
+.image{
+    padding-left: 9%;
+}
+.navbar2{
+    width: 100%;
+    background-color: #343a40;
+    height: 40px;
+}
+.nav2{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    margin-left: 5%;
+}
+.nav2 a{
+    text-decoration: none;
+    color: rgba(255,255,255,0.5);
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #343a40;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    opacity: 95%;
+    text-align: left;
+    font-size: 30px;
+}
+.department-content{
+    min-width: 340px;
+}
+.research-content{
+    min-width: 200px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.slideshow{
+    background-image: url('Image/YTU/bgslide.jpg');
+    padding: 5%;
+}
+.slide{
+    width: 85%;
+    background-color: rgba(0,0,0,0.6);
+    height: 300px;
+    margin-left: 3%;
+    display:flex;
+    padding:4%;
+}
+.slide-left{
+    width: 40%;
+}
+.slide-right{
+    margin-left: 40px;
+    margin-top: -25px;
+    color:white;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 3rem;
+    margin:5% 10% 5% 10%;
+}
+.card {
+    border: 2px solid #e7e7e7;
+    border-radius: 4px;
+    padding: .5rem;
+    color: #495057;
+}
+.card p{
+    text-align: justify;
+    line-height: 2rem;
+    padding-left: 25px;
+}
+.readbtn{
+    float:right;
+    background-color:#e47a13 ;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding:7px;
+    color:white;
+    width:120px;
+}
+.card i.fa {
+    float: left;
+    border-radius: 70px;
+    padding: 0.5em 0.6em;
+    margin: 10px 10px 0px -45px;
+    background-color: #e47a13;
+    color: white;
+}
+.rector{
+    display: flex;
+    margin: 7%;
+}
+.rector-left{
+    width: 40%;
+}
+.rector-right{
+    width:60%;
+    line-height: 2rem;
+    text-align: justify;
+}
+.rector-right h2{
+    color: #e47a13;
+    margin-top: 0;
+    font-size: 2rem;
+}
+h1{
+    text-align: center;
+    color: #e47a13;
+}
+.event-img{
+    display: flex;
+    margin-left: 10%;
+}
+.subitem{
+    width: 23%;
+}
+.img{
+    width: 225px;
+    height: 190px;
+    padding: 4px;
+}
+.welcome{
+    width: 80%;
+    margin-left: 10%;
+}
+.welcomeP{
+    text-align: justify;
+}
+.content{
+    display: flex;
+    background-image: url('Image/YTU/ytubgimage.jpg');
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 120px;
+    padding: 3% 0% 3% 0%;
+    
+}
+.sub-con{
+    width: 24%;
+    border: 1px solid #dee2e6 ;
+    border-radius: 0.25rem;
+    margin: 0 1% 0 1%;
+    text-align: center;
+    padding:0 1% 0 1%;
+}
+.num{
+    color: #e47a13;
+    line-height: 1.5em;
+    font-size: 2rem;
+    margin-top: -.1em;
+    font-weight: 500;
+}
+.whitetext{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 0;;
+}
+.news{
+    display: flex;
+    margin: 0 0% 0 10%;
+}
+.sub-new{
+    width:30%;
+    margin: 5px;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: .5rem;
+}
+.sub-new img{
+    width: 100%;
+    height: 200px;
+    margin-top:1px;
+}
+.sub-new p{
+    color: #e47a13;
+    line-height: 2em;
+    text-align: justify;
+    padding: 0 0px 0 10px;
+}
+
+
+.footer{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    background-color: rgb(58, 58, 59);
+    
+}
+.sub-footer,.sub-footer1{
+    width: 30%;
+    color: white;
+    line-height: 1.5rem;
+}
+.sub-footer1{
+    padding: 0 2% 0 0;
+    margin-left: 10%;
+    text-align: justify;
+    line-height: 2rem;
+}
+.fimg1{
+    margin-top: 10%;
+}
