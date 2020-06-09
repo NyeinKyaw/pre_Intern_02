@@ -1,0 +1,18 @@
+.gridContainer{
+    display: grid;
+    padding: 20px;
+    grid-row-gap: 10px;
+    grid-column-gap: 20px;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    font-style: 18px;
+    text-align: center;
+}
+.center{
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-size: 16px;
+}
